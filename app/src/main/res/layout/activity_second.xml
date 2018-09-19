@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/backgroudimage"
+            android:scaleX="10"
+            android:scaleY="10"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/heart"
+            android:layout_marginTop="13dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menuwhite"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/ro"
+        android:id="@+id/jiostudent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STUDENTS AND GRADUATES"
+            android:layout_centerHorizontal="true"
+            android:textSize="15dp"
+            android:layout_marginTop="50dp"
+            android:id="@+id/students"
+            android:textStyle="bold"
+            android:textColor="#000"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kick start Your Carrer with Jio,Explore limitless"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/students"
+            android:id="@+id/start"
+            android:textSize="13dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opportunties for Digital Life inIndia         "
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/start"
+            android:id="@+id/enable"
+            android:textSize="13dp"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="116dp"
+            android:background="#ccccb3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E34 E-block,Sector 63 ,Noida,Uttar Pradesh 201301"
+            android:layout_below="@id/enable"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="13dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:text="feature"
+            android:textSize="10dp"
+            android:background="@drawable/round1"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            />
+    </RelativeLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/jioo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/jiostudent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/salarys"
+android:background="@drawable/ro"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        >
+        <TextView
+            android:layout_marginTop="5dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salary:"
+            android:textSize="13dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/salary"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INR 2,00,000-4,00,000"
+android:textStyle="bold"
+            android:layout_marginTop="5dp"
+
+           android:layout_marginLeft="120dp"
+            android:textSize="13dp"
+            android:id="@+id/inr"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="industry:"
+            android:layout_below="@id/salary"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/industy"
+            android:textSize="13dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advertising /PR/ MR"
+            android:layout_below="@id/inr"
+            android:id="@+id/ad"
+            android:textSize="13dp"
+            android:layout_marginLeft="120dp"
+            android:textStyle="bold"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fucational Area:"
+            android:textSize="13dp"
+            android:layout_below="@id/industy"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/area"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT Industry"
+            android:layout_marginLeft="120dp"
+            android:layout_below="@id/ad"
+            android:textStyle="bold"
+            android:id="@+id/hr"
+            android:textSize="13dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Role category:"
+            android:textSize="13dp"
+            android:layout_below="@id/area"
+            android:layout_marginLeft="7dp"
+            android:id="@+id/cat"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event Managment"
+            android:layout_marginLeft="120dp"
+            android:layout_below="@id/hr"
+            android:textStyle="bold"
+            android:id="@+id/ir"
+            android:textSize="13dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Role"
+            android:textSize="13dp"
+            android:layout_below="@id/cat"
+            android:layout_marginLeft="7dp"
+            android:id="@+id/role"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hr Executive"
+            android:layout_marginLeft="120dp"
+            android:layout_below="@id/ir"
+            android:id="@+id/exe"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@id/salarys"
+        android:id="@+id/internship"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ro"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        >
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Internship Detail"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jio subscribers in the month of July alone, capturing 19.62 percent of the market, .Reliance Jio Infocomm Limited d/b/a Jio is an Indian mobile network operator. Owned by Reliance Industries and headquartered in Navi Mumbai, Maharashtra, it operates a national LTE network with coverage across all 22 telecom circles."
+            android:layout_below="@id/detail"
+            android:layout_marginLeft="10dp"
+            android:textSize="12dp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:background="@drawable/ro"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="60dp"
+        >
+        <TextView
+            android:id="@+id/key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Key skill"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="7dp"
+            >
+            <Button
+android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@id/key"
+                android:text="photoshop"
+                android:id="@+id/photo"
+                android:textSize="10dp"
+                android:background="@drawable/round1"
+                android:textColor="#fff"
+                />
+
+            <Button
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@id/key"
+                android:text="UI/UX"
+                android:textSize="10dp"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/UI"
+                android:background="@drawable/rod"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@drawable/rod"
+                android:text="java"
+                android:textSize="10dp"
+                android:layout_marginLeft="5dp"
+
+                android:id="@+id/java"
+                />
+            <Button
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="10dp"
+                android:text="Pyhton"
+                android:layout_toRightOf="@id/java"
+                android:id="@+id/python"
+android:background="@drawable/rod"
+                android:layout_marginLeft="5dp"
+
+android:layout_marginRight="5dp"
+
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="Apply Now"
+        android:textAllCaps="false"
+        android:background="@drawable/round1"
+        android:textColor="#fff"
+
+        />
+
+</RelativeLayout>

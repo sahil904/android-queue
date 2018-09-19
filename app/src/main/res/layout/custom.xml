@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="5dp">
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   app:cardCornerRadius="8dp"
+    android:layout_margin="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="5dp"
+        >
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/internshalalogo"
+        android:id="@+id/image"
+
+        />
+        <TextView
+            android:id="@+id/ad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AD"
+
+            android:layout_alignParentRight="true"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <TextView
+            android:id="@+id/training"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="5dp"
+            android:text="ONLINE SUMMER TARININGS"
+            android:textColor="#e67e22" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Save Rs 3000/-* as a first time user on all internshala Training. "
+    android:textSize="11dp"
+    android:layout_below="@id/training"
+    android:id="@+id/about"
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offer end in 09h:34m:28s. "
+        android:textSize="11dp"
+            android:layout_below="@id/about"
+            android:id="@+id/offer"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose form Web Dev| Digital Markerting|Android|Python|IOT| More.. "
+            android:textSize="11dp"
+            android:layout_below="@id/offer"
+            android:id="@+id/web"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+android:text="Full Time"
+            android:textSize="13dp"
+            android:layout_below="@id/web"
+            android:id="@+id/full"
+            android:layout_marginTop="10dp"
+            android:background="#000000"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:text="Paid"
+            android:textSize="13dp"
+           android:layout_toRightOf="@id/full"
+            android:id="@+id/paid"
+            android:layout_below="@id/web"
+            android:layout_marginTop="10dp"
+            android:textColor=" #33ff33"
+            android:layout_marginLeft="10dp"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:id="@+id/view"
+            android:text="view"
+            android:background="@drawable/round1"
+            android:textColor="#fff"
+            android:layout_below="@id/web"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="8dp"
+
+            />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+</android.support.v7.widget.CardView>
